@@ -84,12 +84,12 @@ def crossings_ranking(pairs_file):
 
         print(f"{index / (pairs_csv.size / 3) * 100:.2f}%")
         
-    with open('pairs_ranked_by_crossings.csv', 'w') as f:
+    with open('sigg_pairs_ranked_by_crossings.csv', 'w') as f:
         f.write("stock1, stock2, p_value, crossings\n")
             
         for stock1, stock2, p_value, crossings in sorted(pairs, key=lambda x: -x[3]):
             f.write(f"{stock1}, {stock2}, {p_value}, {crossings}\n")
 
 if __name__ == '__main__':
-    pairs_file = 'all_cointegrated_pairs.csv'
+    pairs_file = 'sigg_cointegrated_pairs.csv'
     crossings_ranking(pairs_file)

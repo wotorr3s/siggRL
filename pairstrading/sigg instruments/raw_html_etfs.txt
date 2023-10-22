@@ -1,0 +1,419 @@
+<tbody><tr id="instrument_PLBETF400025">
+                    <td class="table-instrument__title tv_chart_toggle">
+                        <a href="#" class="fa-icon far fa-star add-to-favorite" data-instrument="PLBETF400025"></a>
+                        <a href="" id="tv_chart_toggle_ETFBM40TR" class="tv_chart">ETFBM40TR</a>
+                    </td>
+                    <td class="table-instrument__time">17:59:20</td>
+                    <td class="table-instrument__priceClose" <="" td="" data-precision="4" data-order="756000">75.6000</td><td class="table-instrument__priceChange" data-order="-182">
+                        
+                            
+                            
+                            <span class="priceChangeWrapper text-danger">
+                                ▼<span class="priceChangeValue">-1.82%</span>
+                            </span>
+                        
+                    </td>
+                    <td class="table-instrument__priceReference" data-precision="4" data-order="770000">77.0000</td>
+                    <td class="table-instrument__priceTko" data-precision="4" data-order="765300">76.5300</td>
+                    <td class="table-instrument__priceOpen" data-precision="4" data-order="765300">76.5300</td>
+
+                    <td class="table-instrument__priceLow" data-precision="4" data-order="754200">75.4200</td>
+
+                    <td class="table-instrument__priceHigh" data-precision="4" data-order="766100">76.6100</td>
+
+
+<!--                    <td th:attr="data-order=${quote.bid1Volume == null? '': #numbers.formatDecimal(quote.bid1Volume, 1, 'NONE', 0, 'DEFAULT')}">-->
+<!--                        <a class="table-instrument__bid1Price" th:href="@{'~/exchange-order/action?direction=sell&instrument=' + ${quote.instrumentId} + '&limit=' + ${quote.bid1Price}}"-->
+<!--                           th:text="${quote.bid1NoPrice? 'PKC/PCR': #numbers.formatDecimal(quote.bid1Price, 1, 'DEFAULT', quote.instrumentPrecision, 'DEFAULT')}" th:attr="data-precision=${quote.instrumentPrecision}"></a>-->
+<!--                        <br /><span class="table-instrument__bid1Volume" th:text="${quote.bid1Volume != null ? #numbers.formatInteger(quote.bid1Volume, 1, 'DEFAULT') + ' szt.' : ''}"></span>-->
+<!--                    </td>-->
+<!--                    <td th:attr="data-order=${quote.ask1Volume == null? '': #numbers.formatDecimal(quote.ask1Volume, 1, 'NONE', 0, 'DEFAULT')}">-->
+<!--                        <a class="table-instrument__ask1Price" th:href="@{'~/exchange-order/action?direction=buy&instrument=' + ${quote.instrumentId} + '&limit=' + ${quote.ask1Price}}"-->
+<!--                           th:text="${quote.ask1NoPrice? 'PKC/PCR': #numbers.formatDecimal(quote.ask1Price, 1, 'DEFAULT', quote.instrumentPrecision, 'DEFAULT')}" th:attr="data-precision=${quote.instrumentPrecision}"></a>-->
+<!--                        <br /><span class="table-instrument__ask1Volume" th:text="${quote.ask1Volume != null ? #numbers.formatInteger(quote.ask1Volume, 1, 'DEFAULT') + ' szt.' : ''}"></span>-->
+<!--                    </td>-->
+                    <td class="table-instrument__cumulativeVolume" data-order="4091">4,091</td>
+                    <td class="table-instrument__cumulativeValue" data-precision="2" data-order="31131245">311,312.45</td>
+                </tr>
+            
+                <tr id="instrument_PLBETFN00018">
+                    <td class="table-instrument__title tv_chart_toggle">
+                        <a href="#" class="fa-icon far fa-star add-to-favorite" data-instrument="PLBETFN00018"></a>
+                        <a href="" id="tv_chart_toggle_ETFBNDXPL" class="tv_chart">ETFBNDXPL</a>
+                    </td>
+                    <td class="table-instrument__time">17:59:21</td>
+                    <td class="table-instrument__priceClose" <="" td="" data-precision="4" data-order="1414600">141.4600</td><td class="table-instrument__priceChange" data-order="-233">
+                        
+                            
+                            
+                            <span class="priceChangeWrapper text-danger">
+                                ▼<span class="priceChangeValue">-2.33%</span>
+                            </span>
+                        
+                    </td>
+                    <td class="table-instrument__priceReference" data-precision="4" data-order="1448400">144.8400</td>
+                    <td class="table-instrument__priceTko" data-precision="4" data-order="1414600">141.4600</td>
+                    <td class="table-instrument__priceOpen" data-precision="4" data-order="1427200">142.7200</td>
+
+                    <td class="table-instrument__priceLow" data-precision="4" data-order="1414600">141.4600</td>
+
+                    <td class="table-instrument__priceHigh" data-precision="4" data-order="1433800">143.3800</td>
+
+
+<!--                    <td th:attr="data-order=${quote.bid1Volume == null? '': #numbers.formatDecimal(quote.bid1Volume, 1, 'NONE', 0, 'DEFAULT')}">-->
+<!--                        <a class="table-instrument__bid1Price" th:href="@{'~/exchange-order/action?direction=sell&instrument=' + ${quote.instrumentId} + '&limit=' + ${quote.bid1Price}}"-->
+<!--                           th:text="${quote.bid1NoPrice? 'PKC/PCR': #numbers.formatDecimal(quote.bid1Price, 1, 'DEFAULT', quote.instrumentPrecision, 'DEFAULT')}" th:attr="data-precision=${quote.instrumentPrecision}"></a>-->
+<!--                        <br /><span class="table-instrument__bid1Volume" th:text="${quote.bid1Volume != null ? #numbers.formatInteger(quote.bid1Volume, 1, 'DEFAULT') + ' szt.' : ''}"></span>-->
+<!--                    </td>-->
+<!--                    <td th:attr="data-order=${quote.ask1Volume == null? '': #numbers.formatDecimal(quote.ask1Volume, 1, 'NONE', 0, 'DEFAULT')}">-->
+<!--                        <a class="table-instrument__ask1Price" th:href="@{'~/exchange-order/action?direction=buy&instrument=' + ${quote.instrumentId} + '&limit=' + ${quote.ask1Price}}"-->
+<!--                           th:text="${quote.ask1NoPrice? 'PKC/PCR': #numbers.formatDecimal(quote.ask1Price, 1, 'DEFAULT', quote.instrumentPrecision, 'DEFAULT')}" th:attr="data-precision=${quote.instrumentPrecision}"></a>-->
+<!--                        <br /><span class="table-instrument__ask1Volume" th:text="${quote.ask1Volume != null ? #numbers.formatInteger(quote.ask1Volume, 1, 'DEFAULT') + ' szt.' : ''}"></span>-->
+<!--                    </td>-->
+                    <td class="table-instrument__cumulativeVolume" data-order="467">467</td>
+                    <td class="table-instrument__cumulativeValue" data-precision="2" data-order="6652382">66,523.82</td>
+                </tr>
+            
+                <tr id="instrument_PLBSWTR00014">
+                    <td class="table-instrument__title tv_chart_toggle">
+                        <a href="#" class="fa-icon far fa-star add-to-favorite" data-instrument="PLBSWTR00014"></a>
+                        <a href="" id="tv_chart_toggle_ETFBS80TR" class="tv_chart">ETFBS80TR</a>
+                    </td>
+                    <td class="table-instrument__time">17:59:20</td>
+                    <td class="table-instrument__priceClose" <="" td="" data-precision="4" data-order="3047000">304.7000</td><td class="table-instrument__priceChange" data-order="-142">
+                        
+                            
+                            
+                            <span class="priceChangeWrapper text-danger">
+                                ▼<span class="priceChangeValue">-1.42%</span>
+                            </span>
+                        
+                    </td>
+                    <td class="table-instrument__priceReference" data-precision="4" data-order="3091000">309.1000</td>
+                    <td class="table-instrument__priceTko" data-precision="4" data-order="3095000">309.5000</td>
+                    <td class="table-instrument__priceOpen" data-precision="4" data-order="3095000">309.5000</td>
+
+                    <td class="table-instrument__priceLow" data-precision="4" data-order="3043500">304.3500</td>
+
+                    <td class="table-instrument__priceHigh" data-precision="4" data-order="3095000">309.5000</td>
+
+
+<!--                    <td th:attr="data-order=${quote.bid1Volume == null? '': #numbers.formatDecimal(quote.bid1Volume, 1, 'NONE', 0, 'DEFAULT')}">-->
+<!--                        <a class="table-instrument__bid1Price" th:href="@{'~/exchange-order/action?direction=sell&instrument=' + ${quote.instrumentId} + '&limit=' + ${quote.bid1Price}}"-->
+<!--                           th:text="${quote.bid1NoPrice? 'PKC/PCR': #numbers.formatDecimal(quote.bid1Price, 1, 'DEFAULT', quote.instrumentPrecision, 'DEFAULT')}" th:attr="data-precision=${quote.instrumentPrecision}"></a>-->
+<!--                        <br /><span class="table-instrument__bid1Volume" th:text="${quote.bid1Volume != null ? #numbers.formatInteger(quote.bid1Volume, 1, 'DEFAULT') + ' szt.' : ''}"></span>-->
+<!--                    </td>-->
+<!--                    <td th:attr="data-order=${quote.ask1Volume == null? '': #numbers.formatDecimal(quote.ask1Volume, 1, 'NONE', 0, 'DEFAULT')}">-->
+<!--                        <a class="table-instrument__ask1Price" th:href="@{'~/exchange-order/action?direction=buy&instrument=' + ${quote.instrumentId} + '&limit=' + ${quote.ask1Price}}"-->
+<!--                           th:text="${quote.ask1NoPrice? 'PKC/PCR': #numbers.formatDecimal(quote.ask1Price, 1, 'DEFAULT', quote.instrumentPrecision, 'DEFAULT')}" th:attr="data-precision=${quote.instrumentPrecision}"></a>-->
+<!--                        <br /><span class="table-instrument__ask1Volume" th:text="${quote.ask1Volume != null ? #numbers.formatInteger(quote.ask1Volume, 1, 'DEFAULT') + ' szt.' : ''}"></span>-->
+<!--                    </td>-->
+                    <td class="table-instrument__cumulativeVolume" data-order="1106">1,106</td>
+                    <td class="table-instrument__cumulativeValue" data-precision="2" data-order="34013155">340,131.55</td>
+                </tr>
+            
+                <tr id="instrument_PLBETFS00017">
+                    <td class="table-instrument__title tv_chart_toggle">
+                        <a href="#" class="fa-icon far fa-star add-to-favorite" data-instrument="PLBETFS00017"></a>
+                        <a href="" id="tv_chart_toggle_ETFBSPXPL" class="tv_chart">ETFBSPXPL</a>
+                    </td>
+                    <td class="table-instrument__time">17:59:21</td>
+                    <td class="table-instrument__priceClose" <="" td="" data-precision="4" data-order="735600">73.5600</td><td class="table-instrument__priceChange" data-order="-191">
+                        
+                            
+                            
+                            <span class="priceChangeWrapper text-danger">
+                                ▼<span class="priceChangeValue">-1.91%</span>
+                            </span>
+                        
+                    </td>
+                    <td class="table-instrument__priceReference" data-precision="4" data-order="749900">74.9900</td>
+                    <td class="table-instrument__priceTko" data-precision="4" data-order="742000">74.2000</td>
+                    <td class="table-instrument__priceOpen" data-precision="4" data-order="742000">74.2000</td>
+
+                    <td class="table-instrument__priceLow" data-precision="4" data-order="735600">73.5600</td>
+
+                    <td class="table-instrument__priceHigh" data-precision="4" data-order="744700">74.4700</td>
+
+
+<!--                    <td th:attr="data-order=${quote.bid1Volume == null? '': #numbers.formatDecimal(quote.bid1Volume, 1, 'NONE', 0, 'DEFAULT')}">-->
+<!--                        <a class="table-instrument__bid1Price" th:href="@{'~/exchange-order/action?direction=sell&instrument=' + ${quote.instrumentId} + '&limit=' + ${quote.bid1Price}}"-->
+<!--                           th:text="${quote.bid1NoPrice? 'PKC/PCR': #numbers.formatDecimal(quote.bid1Price, 1, 'DEFAULT', quote.instrumentPrecision, 'DEFAULT')}" th:attr="data-precision=${quote.instrumentPrecision}"></a>-->
+<!--                        <br /><span class="table-instrument__bid1Volume" th:text="${quote.bid1Volume != null ? #numbers.formatInteger(quote.bid1Volume, 1, 'DEFAULT') + ' szt.' : ''}"></span>-->
+<!--                    </td>-->
+<!--                    <td th:attr="data-order=${quote.ask1Volume == null? '': #numbers.formatDecimal(quote.ask1Volume, 1, 'NONE', 0, 'DEFAULT')}">-->
+<!--                        <a class="table-instrument__ask1Price" th:href="@{'~/exchange-order/action?direction=buy&instrument=' + ${quote.instrumentId} + '&limit=' + ${quote.ask1Price}}"-->
+<!--                           th:text="${quote.ask1NoPrice? 'PKC/PCR': #numbers.formatDecimal(quote.ask1Price, 1, 'DEFAULT', quote.instrumentPrecision, 'DEFAULT')}" th:attr="data-precision=${quote.instrumentPrecision}"></a>-->
+<!--                        <br /><span class="table-instrument__ask1Volume" th:text="${quote.ask1Volume != null ? #numbers.formatInteger(quote.ask1Volume, 1, 'DEFAULT') + ' szt.' : ''}"></span>-->
+<!--                    </td>-->
+                    <td class="table-instrument__cumulativeVolume" data-order="808">808</td>
+                    <td class="table-instrument__cumulativeValue" data-precision="2" data-order="5975187">59,751.87</td>
+                </tr>
+            
+                <tr id="instrument_PLBTBSP00012">
+                    <td class="table-instrument__title tv_chart_toggle">
+                        <a href="#" class="fa-icon far fa-star add-to-favorite" data-instrument="PLBTBSP00012"></a>
+                        <a href="" id="tv_chart_toggle_ETFBTBSP" class="tv_chart">ETFBTBSP</a>
+                    </td>
+                    <td class="table-instrument__time">17:59:21</td>
+                    <td class="table-instrument__priceClose" <="" td="" data-precision="4" data-order="1968800">196.8800</td><td class="table-instrument__priceChange" data-order="6">
+                        
+                            <span class="priceChangeWrapper text-success">
+                                ▲<span class="priceChangeValue">+0.06%</span>
+                            </span>
+                            
+                            
+                        
+                    </td>
+                    <td class="table-instrument__priceReference" data-precision="4" data-order="1967600">196.7600</td>
+                    <td class="table-instrument__priceTko" data-precision="4" data-order="1968800">196.8800</td>
+                    <td class="table-instrument__priceOpen" data-precision="4" data-order="1958000">195.8000</td>
+
+                    <td class="table-instrument__priceLow" data-precision="4" data-order="1952000">195.2000</td>
+
+                    <td class="table-instrument__priceHigh" data-precision="4" data-order="1973000">197.3000</td>
+
+
+<!--                    <td th:attr="data-order=${quote.bid1Volume == null? '': #numbers.formatDecimal(quote.bid1Volume, 1, 'NONE', 0, 'DEFAULT')}">-->
+<!--                        <a class="table-instrument__bid1Price" th:href="@{'~/exchange-order/action?direction=sell&instrument=' + ${quote.instrumentId} + '&limit=' + ${quote.bid1Price}}"-->
+<!--                           th:text="${quote.bid1NoPrice? 'PKC/PCR': #numbers.formatDecimal(quote.bid1Price, 1, 'DEFAULT', quote.instrumentPrecision, 'DEFAULT')}" th:attr="data-precision=${quote.instrumentPrecision}"></a>-->
+<!--                        <br /><span class="table-instrument__bid1Volume" th:text="${quote.bid1Volume != null ? #numbers.formatInteger(quote.bid1Volume, 1, 'DEFAULT') + ' szt.' : ''}"></span>-->
+<!--                    </td>-->
+<!--                    <td th:attr="data-order=${quote.ask1Volume == null? '': #numbers.formatDecimal(quote.ask1Volume, 1, 'NONE', 0, 'DEFAULT')}">-->
+<!--                        <a class="table-instrument__ask1Price" th:href="@{'~/exchange-order/action?direction=buy&instrument=' + ${quote.instrumentId} + '&limit=' + ${quote.ask1Price}}"-->
+<!--                           th:text="${quote.ask1NoPrice? 'PKC/PCR': #numbers.formatDecimal(quote.ask1Price, 1, 'DEFAULT', quote.instrumentPrecision, 'DEFAULT')}" th:attr="data-precision=${quote.instrumentPrecision}"></a>-->
+<!--                        <br /><span class="table-instrument__ask1Volume" th:text="${quote.ask1Volume != null ? #numbers.formatInteger(quote.ask1Volume, 1, 'DEFAULT') + ' szt.' : ''}"></span>-->
+<!--                    </td>-->
+                    <td class="table-instrument__cumulativeVolume" data-order="870">870</td>
+                    <td class="table-instrument__cumulativeValue" data-precision="2" data-order="17034478">170,344.78</td>
+                </tr>
+            
+                <tr id="instrument_PLBEW2L00019">
+                    <td class="table-instrument__title tv_chart_toggle">
+                        <a href="#" class="fa-icon far fa-star add-to-favorite" data-instrument="PLBEW2L00019"></a>
+                        <a href="" id="tv_chart_toggle_ETFBW20LV" class="tv_chart">ETFBW20LV</a>
+                    </td>
+                    <td class="table-instrument__time">17:59:21</td>
+                    <td class="table-instrument__priceClose" <="" td="" data-precision="4" data-order="334000">33.4000</td><td class="table-instrument__priceChange" data-order="-245">
+                        
+                            
+                            
+                            <span class="priceChangeWrapper text-danger">
+                                ▼<span class="priceChangeValue">-2.45%</span>
+                            </span>
+                        
+                    </td>
+                    <td class="table-instrument__priceReference" data-precision="4" data-order="342400">34.2400</td>
+                    <td class="table-instrument__priceTko" data-precision="4" data-order="336200">33.6200</td>
+                    <td class="table-instrument__priceOpen" data-precision="4" data-order="336200">33.6200</td>
+
+                    <td class="table-instrument__priceLow" data-precision="4" data-order="332200">33.2200</td>
+
+                    <td class="table-instrument__priceHigh" data-precision="4" data-order="342100">34.2100</td>
+
+
+<!--                    <td th:attr="data-order=${quote.bid1Volume == null? '': #numbers.formatDecimal(quote.bid1Volume, 1, 'NONE', 0, 'DEFAULT')}">-->
+<!--                        <a class="table-instrument__bid1Price" th:href="@{'~/exchange-order/action?direction=sell&instrument=' + ${quote.instrumentId} + '&limit=' + ${quote.bid1Price}}"-->
+<!--                           th:text="${quote.bid1NoPrice? 'PKC/PCR': #numbers.formatDecimal(quote.bid1Price, 1, 'DEFAULT', quote.instrumentPrecision, 'DEFAULT')}" th:attr="data-precision=${quote.instrumentPrecision}"></a>-->
+<!--                        <br /><span class="table-instrument__bid1Volume" th:text="${quote.bid1Volume != null ? #numbers.formatInteger(quote.bid1Volume, 1, 'DEFAULT') + ' szt.' : ''}"></span>-->
+<!--                    </td>-->
+<!--                    <td th:attr="data-order=${quote.ask1Volume == null? '': #numbers.formatDecimal(quote.ask1Volume, 1, 'NONE', 0, 'DEFAULT')}">-->
+<!--                        <a class="table-instrument__ask1Price" th:href="@{'~/exchange-order/action?direction=buy&instrument=' + ${quote.instrumentId} + '&limit=' + ${quote.ask1Price}}"-->
+<!--                           th:text="${quote.ask1NoPrice? 'PKC/PCR': #numbers.formatDecimal(quote.ask1Price, 1, 'DEFAULT', quote.instrumentPrecision, 'DEFAULT')}" th:attr="data-precision=${quote.instrumentPrecision}"></a>-->
+<!--                        <br /><span class="table-instrument__ask1Volume" th:text="${quote.ask1Volume != null ? #numbers.formatInteger(quote.ask1Volume, 1, 'DEFAULT') + ' szt.' : ''}"></span>-->
+<!--                    </td>-->
+                    <td class="table-instrument__cumulativeVolume" data-order="32149">32,149</td>
+                    <td class="table-instrument__cumulativeValue" data-precision="2" data-order="108718645">1,087,186.45</td>
+                </tr>
+            
+                <tr id="instrument_PLBETF200011">
+                    <td class="table-instrument__title tv_chart_toggle">
+                        <a href="#" class="fa-icon far fa-star add-to-favorite" data-instrument="PLBETF200011"></a>
+                        <a href="" id="tv_chart_toggle_ETFBW20ST" class="tv_chart">ETFBW20ST</a>
+                    </td>
+                    <td class="table-instrument__time">17:59:20</td>
+                    <td class="table-instrument__priceClose" <="" td="" data-precision="4" data-order="3170000">317.0000</td><td class="table-instrument__priceChange" data-order="154">
+                        
+                            <span class="priceChangeWrapper text-success">
+                                ▲<span class="priceChangeValue">+1.54%</span>
+                            </span>
+                            
+                            
+                        
+                    </td>
+                    <td class="table-instrument__priceReference" data-precision="4" data-order="3122000">312.2000</td>
+                    <td class="table-instrument__priceTko" data-precision="4" data-order="3150000">315.0000</td>
+                    <td class="table-instrument__priceOpen" data-precision="4" data-order="3150000">315.0000</td>
+
+                    <td class="table-instrument__priceLow" data-precision="4" data-order="3127000">312.7000</td>
+
+                    <td class="table-instrument__priceHigh" data-precision="4" data-order="3179000">317.9000</td>
+
+
+<!--                    <td th:attr="data-order=${quote.bid1Volume == null? '': #numbers.formatDecimal(quote.bid1Volume, 1, 'NONE', 0, 'DEFAULT')}">-->
+<!--                        <a class="table-instrument__bid1Price" th:href="@{'~/exchange-order/action?direction=sell&instrument=' + ${quote.instrumentId} + '&limit=' + ${quote.bid1Price}}"-->
+<!--                           th:text="${quote.bid1NoPrice? 'PKC/PCR': #numbers.formatDecimal(quote.bid1Price, 1, 'DEFAULT', quote.instrumentPrecision, 'DEFAULT')}" th:attr="data-precision=${quote.instrumentPrecision}"></a>-->
+<!--                        <br /><span class="table-instrument__bid1Volume" th:text="${quote.bid1Volume != null ? #numbers.formatInteger(quote.bid1Volume, 1, 'DEFAULT') + ' szt.' : ''}"></span>-->
+<!--                    </td>-->
+<!--                    <td th:attr="data-order=${quote.ask1Volume == null? '': #numbers.formatDecimal(quote.ask1Volume, 1, 'NONE', 0, 'DEFAULT')}">-->
+<!--                        <a class="table-instrument__ask1Price" th:href="@{'~/exchange-order/action?direction=buy&instrument=' + ${quote.instrumentId} + '&limit=' + ${quote.ask1Price}}"-->
+<!--                           th:text="${quote.ask1NoPrice? 'PKC/PCR': #numbers.formatDecimal(quote.ask1Price, 1, 'DEFAULT', quote.instrumentPrecision, 'DEFAULT')}" th:attr="data-precision=${quote.instrumentPrecision}"></a>-->
+<!--                        <br /><span class="table-instrument__ask1Volume" th:text="${quote.ask1Volume != null ? #numbers.formatInteger(quote.ask1Volume, 1, 'DEFAULT') + ' szt.' : ''}"></span>-->
+<!--                    </td>-->
+                    <td class="table-instrument__cumulativeVolume" data-order="2982">2,982</td>
+                    <td class="table-instrument__cumulativeValue" data-precision="2" data-order="93783345">937,833.45</td>
+                </tr>
+            
+                <tr id="instrument_PLBTETF00015">
+                    <td class="table-instrument__title tv_chart_toggle">
+                        <a href="#" class="fa-icon far fa-star add-to-favorite" data-instrument="PLBTETF00015"></a>
+                        <a href="" id="tv_chart_toggle_ETFBW20TR" class="tv_chart">ETFBW20TR</a>
+                    </td>
+                    <td class="table-instrument__time">17:59:21</td>
+                    <td class="table-instrument__priceClose" <="" td="" data-precision="4" data-order="367400">36.7400</td><td class="table-instrument__priceChange" data-order="-89">
+                        
+                            
+                            
+                            <span class="priceChangeWrapper text-danger">
+                                ▼<span class="priceChangeValue">-0.89%</span>
+                            </span>
+                        
+                    </td>
+                    <td class="table-instrument__priceReference" data-precision="4" data-order="370700">37.0700</td>
+                    <td class="table-instrument__priceTko" data-precision="4" data-order="367400">36.7400</td>
+                    <td class="table-instrument__priceOpen" data-precision="4" data-order="369000">36.9000</td>
+
+                    <td class="table-instrument__priceLow" data-precision="4" data-order="365550">36.5550</td>
+
+                    <td class="table-instrument__priceHigh" data-precision="4" data-order="371400">37.1400</td>
+
+
+<!--                    <td th:attr="data-order=${quote.bid1Volume == null? '': #numbers.formatDecimal(quote.bid1Volume, 1, 'NONE', 0, 'DEFAULT')}">-->
+<!--                        <a class="table-instrument__bid1Price" th:href="@{'~/exchange-order/action?direction=sell&instrument=' + ${quote.instrumentId} + '&limit=' + ${quote.bid1Price}}"-->
+<!--                           th:text="${quote.bid1NoPrice? 'PKC/PCR': #numbers.formatDecimal(quote.bid1Price, 1, 'DEFAULT', quote.instrumentPrecision, 'DEFAULT')}" th:attr="data-precision=${quote.instrumentPrecision}"></a>-->
+<!--                        <br /><span class="table-instrument__bid1Volume" th:text="${quote.bid1Volume != null ? #numbers.formatInteger(quote.bid1Volume, 1, 'DEFAULT') + ' szt.' : ''}"></span>-->
+<!--                    </td>-->
+<!--                    <td th:attr="data-order=${quote.ask1Volume == null? '': #numbers.formatDecimal(quote.ask1Volume, 1, 'NONE', 0, 'DEFAULT')}">-->
+<!--                        <a class="table-instrument__ask1Price" th:href="@{'~/exchange-order/action?direction=buy&instrument=' + ${quote.instrumentId} + '&limit=' + ${quote.ask1Price}}"-->
+<!--                           th:text="${quote.ask1NoPrice? 'PKC/PCR': #numbers.formatDecimal(quote.ask1Price, 1, 'DEFAULT', quote.instrumentPrecision, 'DEFAULT')}" th:attr="data-precision=${quote.instrumentPrecision}"></a>-->
+<!--                        <br /><span class="table-instrument__ask1Volume" th:text="${quote.ask1Volume != null ? #numbers.formatInteger(quote.ask1Volume, 1, 'DEFAULT') + ' szt.' : ''}"></span>-->
+<!--                    </td>-->
+                    <td class="table-instrument__cumulativeVolume" data-order="28765">28,765</td>
+                    <td class="table-instrument__cumulativeValue" data-precision="2" data-order="105846872">1,058,468.72</td>
+                </tr>
+            
+                <tr id="instrument_PLBETWT00010">
+                    <td class="table-instrument__title tv_chart_toggle">
+                        <a href="#" class="fa-icon far fa-star add-to-favorite" data-instrument="PLBETWT00010"></a>
+                        <a href="" id="tv_chart_toggle_ETFBWTECH" class="tv_chart">ETFBWTECH</a>
+                    </td>
+                    <td class="table-instrument__time">17:59:21</td>
+                    <td class="table-instrument__priceClose" <="" td="" data-precision="4" data-order="1260000">126.0000</td><td class="table-instrument__priceChange" data-order="-150">
+                        
+                            
+                            
+                            <span class="priceChangeWrapper text-danger">
+                                ▼<span class="priceChangeValue">-1.50%</span>
+                            </span>
+                        
+                    </td>
+                    <td class="table-instrument__priceReference" data-precision="4" data-order="1279200">127.9200</td>
+                    <td class="table-instrument__priceTko" data-precision="4" data-order="1260000">126.0000</td>
+                    <td class="table-instrument__priceOpen" data-precision="4" data-order="1258400">125.8400</td>
+
+                    <td class="table-instrument__priceLow" data-precision="4" data-order="1252800">125.2800</td>
+
+                    <td class="table-instrument__priceHigh" data-precision="4" data-order="1260000">126.0000</td>
+
+
+<!--                    <td th:attr="data-order=${quote.bid1Volume == null? '': #numbers.formatDecimal(quote.bid1Volume, 1, 'NONE', 0, 'DEFAULT')}">-->
+<!--                        <a class="table-instrument__bid1Price" th:href="@{'~/exchange-order/action?direction=sell&instrument=' + ${quote.instrumentId} + '&limit=' + ${quote.bid1Price}}"-->
+<!--                           th:text="${quote.bid1NoPrice? 'PKC/PCR': #numbers.formatDecimal(quote.bid1Price, 1, 'DEFAULT', quote.instrumentPrecision, 'DEFAULT')}" th:attr="data-precision=${quote.instrumentPrecision}"></a>-->
+<!--                        <br /><span class="table-instrument__bid1Volume" th:text="${quote.bid1Volume != null ? #numbers.formatInteger(quote.bid1Volume, 1, 'DEFAULT') + ' szt.' : ''}"></span>-->
+<!--                    </td>-->
+<!--                    <td th:attr="data-order=${quote.ask1Volume == null? '': #numbers.formatDecimal(quote.ask1Volume, 1, 'NONE', 0, 'DEFAULT')}">-->
+<!--                        <a class="table-instrument__ask1Price" th:href="@{'~/exchange-order/action?direction=buy&instrument=' + ${quote.instrumentId} + '&limit=' + ${quote.ask1Price}}"-->
+<!--                           th:text="${quote.ask1NoPrice? 'PKC/PCR': #numbers.formatDecimal(quote.ask1Price, 1, 'DEFAULT', quote.instrumentPrecision, 'DEFAULT')}" th:attr="data-precision=${quote.instrumentPrecision}"></a>-->
+<!--                        <br /><span class="table-instrument__ask1Volume" th:text="${quote.ask1Volume != null ? #numbers.formatInteger(quote.ask1Volume, 1, 'DEFAULT') + ' szt.' : ''}"></span>-->
+<!--                    </td>-->
+                    <td class="table-instrument__cumulativeVolume" data-order="215">215</td>
+                    <td class="table-instrument__cumulativeValue" data-precision="2" data-order="2706224">27,062.24</td>
+                </tr>
+            
+                <tr id="instrument_LU0252633754">
+                    <td class="table-instrument__title tv_chart_toggle">
+                        <a href="#" class="fa-icon far fa-star add-to-favorite" data-instrument="LU0252633754"></a>
+                        <a href="" id="tv_chart_toggle_ETFDAX" class="tv_chart">ETFDAX</a>
+                    </td>
+                    <td class="table-instrument__time">17:59:21</td>
+                    <td class="table-instrument__priceClose" <="" td="" data-precision="4" data-order="6128000">612.8000</td><td class="table-instrument__priceChange" data-order="-138">
+                        
+                            
+                            
+                            <span class="priceChangeWrapper text-danger">
+                                ▼<span class="priceChangeValue">-1.38%</span>
+                            </span>
+                        
+                    </td>
+                    <td class="table-instrument__priceReference" data-precision="4" data-order="6214000">621.4000</td>
+                    <td class="table-instrument__priceTko" data-precision="4" data-order="6149000">614.9000</td>
+                    <td class="table-instrument__priceOpen" data-precision="4" data-order="6149000">614.9000</td>
+
+                    <td class="table-instrument__priceLow" data-precision="4" data-order="6124000">612.4000</td>
+
+                    <td class="table-instrument__priceHigh" data-precision="4" data-order="6164000">616.4000</td>
+
+
+<!--                    <td th:attr="data-order=${quote.bid1Volume == null? '': #numbers.formatDecimal(quote.bid1Volume, 1, 'NONE', 0, 'DEFAULT')}">-->
+<!--                        <a class="table-instrument__bid1Price" th:href="@{'~/exchange-order/action?direction=sell&instrument=' + ${quote.instrumentId} + '&limit=' + ${quote.bid1Price}}"-->
+<!--                           th:text="${quote.bid1NoPrice? 'PKC/PCR': #numbers.formatDecimal(quote.bid1Price, 1, 'DEFAULT', quote.instrumentPrecision, 'DEFAULT')}" th:attr="data-precision=${quote.instrumentPrecision}"></a>-->
+<!--                        <br /><span class="table-instrument__bid1Volume" th:text="${quote.bid1Volume != null ? #numbers.formatInteger(quote.bid1Volume, 1, 'DEFAULT') + ' szt.' : ''}"></span>-->
+<!--                    </td>-->
+<!--                    <td th:attr="data-order=${quote.ask1Volume == null? '': #numbers.formatDecimal(quote.ask1Volume, 1, 'NONE', 0, 'DEFAULT')}">-->
+<!--                        <a class="table-instrument__ask1Price" th:href="@{'~/exchange-order/action?direction=buy&instrument=' + ${quote.instrumentId} + '&limit=' + ${quote.ask1Price}}"-->
+<!--                           th:text="${quote.ask1NoPrice? 'PKC/PCR': #numbers.formatDecimal(quote.ask1Price, 1, 'DEFAULT', quote.instrumentPrecision, 'DEFAULT')}" th:attr="data-precision=${quote.instrumentPrecision}"></a>-->
+<!--                        <br /><span class="table-instrument__ask1Volume" th:text="${quote.ask1Volume != null ? #numbers.formatInteger(quote.ask1Volume, 1, 'DEFAULT') + ' szt.' : ''}"></span>-->
+<!--                    </td>-->
+                    <td class="table-instrument__cumulativeVolume" data-order="149">149</td>
+                    <td class="table-instrument__cumulativeValue" data-precision="2" data-order="9157970">91,579.70</td>
+                </tr>
+            
+                <tr id="instrument_LU0496786574">
+                    <td class="table-instrument__title tv_chart_toggle">
+                        <a href="#" class="fa-icon far fa-star add-to-favorite" data-instrument="LU0496786574"></a>
+                        <a href="" id="tv_chart_toggle_ETFSP500" class="tv_chart">ETFSP500</a>
+                    </td>
+                    <td class="table-instrument__time">17:59:21</td>
+                    <td class="table-instrument__priceClose" <="" td="" data-precision="4" data-order="1853000">185.3000</td><td class="table-instrument__priceChange" data-order="-182">
+                        
+                            
+                            
+                            <span class="priceChangeWrapper text-danger">
+                                ▼<span class="priceChangeValue">-1.82%</span>
+                            </span>
+                        
+                    </td>
+                    <td class="table-instrument__priceReference" data-precision="4" data-order="1887400">188.7400</td>
+                    <td class="table-instrument__priceTko" data-precision="4" data-order="1853000">185.3000</td>
+                    <td class="table-instrument__priceOpen" data-precision="4" data-order="1870000">187.0000</td>
+
+                    <td class="table-instrument__priceLow" data-precision="4" data-order="1853000">185.3000</td>
+
+                    <td class="table-instrument__priceHigh" data-precision="4" data-order="1875800">187.5800</td>
+
+
+<!--                    <td th:attr="data-order=${quote.bid1Volume == null? '': #numbers.formatDecimal(quote.bid1Volume, 1, 'NONE', 0, 'DEFAULT')}">-->
+<!--                        <a class="table-instrument__bid1Price" th:href="@{'~/exchange-order/action?direction=sell&instrument=' + ${quote.instrumentId} + '&limit=' + ${quote.bid1Price}}"-->
+<!--                           th:text="${quote.bid1NoPrice? 'PKC/PCR': #numbers.formatDecimal(quote.bid1Price, 1, 'DEFAULT', quote.instrumentPrecision, 'DEFAULT')}" th:attr="data-precision=${quote.instrumentPrecision}"></a>-->
+<!--                        <br /><span class="table-instrument__bid1Volume" th:text="${quote.bid1Volume != null ? #numbers.formatInteger(quote.bid1Volume, 1, 'DEFAULT') + ' szt.' : ''}"></span>-->
+<!--                    </td>-->
+<!--                    <td th:attr="data-order=${quote.ask1Volume == null? '': #numbers.formatDecimal(quote.ask1Volume, 1, 'NONE', 0, 'DEFAULT')}">-->
+<!--                        <a class="table-instrument__ask1Price" th:href="@{'~/exchange-order/action?direction=buy&instrument=' + ${quote.instrumentId} + '&limit=' + ${quote.ask1Price}}"-->
+<!--                           th:text="${quote.ask1NoPrice? 'PKC/PCR': #numbers.formatDecimal(quote.ask1Price, 1, 'DEFAULT', quote.instrumentPrecision, 'DEFAULT')}" th:attr="data-precision=${quote.instrumentPrecision}"></a>-->
+<!--                        <br /><span class="table-instrument__ask1Volume" th:text="${quote.ask1Volume != null ? #numbers.formatInteger(quote.ask1Volume, 1, 'DEFAULT') + ' szt.' : ''}"></span>-->
+<!--                    </td>-->
+                    <td class="table-instrument__cumulativeVolume" data-order="2990">2,990</td>
+                    <td class="table-instrument__cumulativeValue" data-precision="2" data-order="55850414">558,504.14</td>
+                </tr>
+            
+        </tbody>

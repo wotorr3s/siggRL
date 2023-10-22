@@ -25,7 +25,7 @@ def adjust_sizes(X, Y):
     Y = Y[-smaller:]
     return X, Y
 
-pairs = pd.read_csv("pairs_ranked_by_crossings.csv")
+pairs = pd.read_csv("pairs/sigg_pairs_ranked_by_crossings.csv")
 
 for index, row in pairs[:number_of_best].iterrows():
 

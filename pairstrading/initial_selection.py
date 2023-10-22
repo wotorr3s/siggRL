@@ -8,8 +8,8 @@ import statsmodels.api as sm
 import numpy as np
 import matplotlib.pyplot as plt
 
-first_n = 10
-p_value_threshold = 0.001
+first_n = -1
+p_value_threshold = 0.01
 folder_location = 'C:\stocks\stocks'
 
 def load_and_process_csv(file_path):
@@ -48,12 +48,28 @@ stock_files = os.listdir(folder_location)
 stock_names = []
 stock_dfs = []
 
+
+valid_stocks = []
+with open('valid_tickers.txt', 'r') as file:
+    for line in file:
+        clean_line = line.strip()
+        valid_stocks.append(clean_line)
+
+invalid_stocks_indices = []
+for i, f in enumerate(stock_files):
+    if os.path.splitext(f)[0] not in valid_stocks:
+        invalid_stocks_indices.append(i)
+
+for i in sorted(invalid_stocks_indices)[::-1]:
+    del stock_files[i]
+
 if first_n == -1: 
     first_n = len(stock_files)
-
+    
 for file in stock_files[:first_n]:
     stock_names.append(os.path.splitext(file)[0])
     stock_dfs.append(load_and_process_csv(os.path.join(folder_location, file)))
+
 
 cointegrated_pairs = []
 betas = []
@@ -80,33 +96,33 @@ with open('cointegrated_pairs.csv', 'w') as f:
     for stock1, stock2, p_value in sorted(cointegrated_pairs, key=lambda x: x[2]):
         f.write(f"{stock1}, {stock2}, {p_value}\n")
 
-        fig, axis = plt.subplots(2, 1, figsize=(12, 6))
+        # fig, axis = plt.subplots(2, 1, figsize=(12, 6))
 
-        df1 = stock_dfs[stock_names.index(stock1)]
-        df2 = stock_dfs[stock_names.index(stock2)]
+        # df1 = stock_dfs[stock_names.index(stock1)]
+        # df2 = stock_dfs[stock_names.index(stock2)]
 
-        axis[0].plot(df1['c'], label=stock1)
-        ax2 = axis[0].twiny()
-        axis[0].plot(df2['c'], label=stock2)
-        axis[0].legend()
+        # axis[0].plot(df1['c'], label=stock1)
+        # ax2 = axis[0].twiny()
+        # axis[0].plot(df2['c'], label=stock2)
+        # axis[0].legend()
 
-        S1 = np.array(df1['c'])
-        S2 = np.array(df2['c'])
-        S1, S2 = adjust_sizes(S1, S2)
-        beta = betas[i]
+        # S1 = np.array(df1['c'])
+        # S2 = np.array(df2['c'])
+        # S1, S2 = adjust_sizes(S1, S2)
+        # beta = betas[i]
 
-        Y = S1 - beta * S2
-        Z_score = (Y - np.mean(Y)) / np.std(Y)
+        # Y = S1 - beta * S2
+        # Z_score = (Y - np.mean(Y)) / np.std(Y)
 
-        smallerdf = df1 if len(df1['c']) < len(df2['c']) else df2
+        # smallerdf = df1 if len(df1['c']) < len(df2['c']) else df2
 
-        dates = pd.to_datetime(smallerdf['t'], unit='s')
-        axis[1].plot(dates, Z_score, color='green', label='Spread')
-        axis[1].axhline(0, color='black')
-        axis[1].set_xlabel('Date')
-        axis[1].legend()
+        # dates = pd.to_datetime(smallerdf['t'], unit='s')
+        # axis[1].plot(dates, Z_score, color='green', label='Spread')
+        # axis[1].axhline(0, color='black')
+        # axis[1].set_xlabel('Date')
+        # axis[1].legend()
 
-        # print(stock1, stock2)
-        plt.show()
-        plt.savefig(f'pairs/{str(i+1)}th best {stock1} and {stock2}.png')
+        # # print(stock1, stock2)
+        # plt.show()
+        # plt.savefig(f'pairs/{str(i+1)}th best {stock1} and {stock2}.png')
         i += 1
