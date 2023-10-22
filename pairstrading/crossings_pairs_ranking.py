@@ -47,16 +47,20 @@ def calculate_crossings(stock1, stock2):
     X = sm.add_constant(X)
     model = sm.OLS(Y, X).fit()
     beta = model.params[1]
-    X, Y = np.array(X), np.array(Y)
-    spread = Y / (beta * X)
-    # spread = Y - (beta * X)
+    X, Y = np.array(X)[:, 1], np.array(Y)
+    # spread = Y / (beta * X) # how would i interpret zero crossings in this scenario? 
+    spread = Y - (beta * X) 
+
+    spread = (spread - np.mean(spread)) / np.std(spread)
 
     crossings = 0
     prev_spread_value = spread[0]
     for spread_value in spread[1:]:
-        if spread_value * prev_spread_value:
+        if spread_value * prev_spread_value < 0:
             crossings += 1
         prev_spread_value = spread_value
+
+    # print(crossings, len(X))
 
     return crossings / len(X)
 
@@ -66,9 +70,10 @@ def crossings_ranking(pairs_file):
 
     pairs = []
 
-    print(pairs_csv.columns)
+    for index, row in pairs_csv.iterrows():
 
-    for _, row in pairs_csv.iterrows():
+        # if index > 5: break
+
         stock1 = row['stock1'].strip()
         stock2 = row[' stock2'].strip()
         p_value = row[' p_value']
@@ -76,11 +81,13 @@ def crossings_ranking(pairs_file):
         crossings = calculate_crossings(stock1, stock2)
 
         pairs.append((stock1, stock2, p_value, crossings))
+
+        print(f"{index / (pairs_csv.size / 3) * 100:.2f}%")
         
     with open('pairs_ranked_by_crossings.csv', 'w') as f:
         f.write("stock1, stock2, p_value, crossings\n")
             
-        for stock1, stock2, p_value, crossings in sorted(pairs, key=lambda x: x[3]):
+        for stock1, stock2, p_value, crossings in sorted(pairs, key=lambda x: -x[3]):
             f.write(f"{stock1}, {stock2}, {p_value}, {crossings}\n")
 
 if __name__ == '__main__':

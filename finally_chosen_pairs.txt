@@ -1,0 +1,4 @@
+numbering as in pairs_ranked_by_crossings.csv (pair in line x of the file, counting from 1)
+7
+14
+29
