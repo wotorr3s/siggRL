@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 first_n = 10
 p_value_threshold = 0.001
-folder_location = 'C:\stocks\stocks'
+folder_location = '/stocks/'
 
 def load_and_process_csv(file_path):
     df = pd.read_csv(file_path)
