@@ -6,7 +6,7 @@ import os
 
 # Read in price data
 dfs={}
-files = os.listdir("../pairstrading/stocks/")
+files = os.listdir("../data/all/stocks/")
 def load_and_process_csv(file_path):
     df = pd.read_csv(file_path)
 
@@ -18,9 +18,7 @@ def load_and_process_csv(file_path):
 
 for file in files:
     print(file)
-    dfs[file]=load_and_process_csv("../pairstrading/stocks/"+file)
-# for i in files:
-#     df = df.merge(load_and_process_csv("../pairstrading/stocks/"+i))
+    dfs[file]=load_and_process_csv("../data/all/stocks/"+file)
 
 # Calculate expected returns and sample covariance
 mu = expected_returns.mean_historical_return(dfs)
